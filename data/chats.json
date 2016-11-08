@@ -1,0 +1,153 @@
+[{
+  "text": "Hi there! Thank you for coming in, how are you doing today?",
+  "category": "hellos"
+}, {
+  "text": "Welcome to my Infusionsoft chat office, how can assist you today?",
+  "category": "hellos"
+}, {
+  "text": "What brought you to me today?",
+  "category": "hellos"
+}, {
+  "text": "Hi! Thank you for coming in today. I am more than happy to see how bset I can help.",
+  "category": "hellos"
+}, {
+  "text": "No problem! I am always glad to help! Real quick! I just want to give you a quick heads up that we currently we have an early bird sale for ICON 2017 tickets! There is a $200 discount and you get a free ticket! Have you heard about ICON before?",
+  "category": "Service Referrals - VAS"
+}, {
+  "text": "No problem. Just to let you know, in additional to support, we also have a Success Service Team that can help you strategize and come up with the best options for not only this campaigns but future ones as well. Would that be something you would be interested in? We do also have events coming up for training too. What is the best email and phone number to reach you at if you are?",
+  "category": "Service Referrals - VAS",
+  "title": "Part One"
+}, {
+  "text": "Sounds great I will let them know you are intersted in some more information on our events and coaching opportunities. Is there anything els I can help you with before you go today?",
+  "category": "Service Referrals - VAS",
+  "title": "Part Two"
+}, {
+  "text": "Thanks for chatting in today! You are doing awesome! I wanted to give you a heads up that we have a ton of free and paid services that can help grow your Infusionsoft app ( or insert campaign builder, E-Commerce, CRM or other skills) to the next level. I can have someone reach out and do a free consultation if you are interested!",
+  "category": "Service Referrals - VAS"
+}, {
+  "text": "I understand, and don't worry, I'll guide you through it.",
+  "category": "bells of churn"
+}, {
+  "text": "I see. I will definitely help you out!",
+  "category": "bells of churn"
+}, {
+  "text": "First hover over the Infusionsoft logo---> then find the 'Reports' option under the 'Marketing' tab ---> then click the 'Email Broadcast' report",
+  "category": "reports",
+  "title": "> Email Broadcast Report"
+}, {
+  "text": "first hover over the Infusionsoft logo---> then find the 'Reports' option under the 'Marketing' tab ---> then click the 'Email Status Search' report",
+  "category": "reports",
+  "title": "> Email Status Report"
+}, {
+  "text": "first hover over the Infusionsoft logo---> then find the 'Reports' option under the 'Marketing' tab ---> then click the 'Web Form Tracking Report' report",
+  "category": "reports",
+  "title": "> Web Form Tracking Report"
+}, {
+  "text": "first hover over the Infusionsoft logo---> then find the 'Reports' option under the 'E-commerce' tab ---> then click the 'All Sales Report' report",
+  "category": "reports",
+  "title": "> All Sales Report"
+}, {
+  "text": "there is a way to view the campaign email stats with the provided campaign email reporting, but not a way to view which contacts clicked on which links with out applying a tag. But here is where to go to see these numbers for campaign emails",
+  "category": "reports",
+  "title": "> Campaign Email Reporting"
+}, {
+  "text": "first hover over the Infusionsoft logo---> then find the 'E-commerce set-up' option under the 'E-commerce' tab --> then click on the 'Promotions' option",
+  "category": "navigation",
+  "title": "> where are Promotions"
+}, {
+  "text": "first hover over the Infusionsoft logo---> then find the 'users' option under the 'Admin' tab ---> then click the name of the user you would like to do this with---> then click on the 'user groups' tab----> and then select the 'sales rep' from the drop down and then click on the 'add' button",
+  "category": "navigation",
+  "title": "> add user to the Sales Rep user group"
+}, {
+  "text": "first hover over the Infusionsoft logo---> then find the 'Billing & account' info option under the 'Admin' tab ---> then click the 'View / update your billing info' link on that page--> then 'Edit Your Profile'--> then 'Payment Information'",
+  "category": "navigation",
+  "title": "> edit Apps card on file"
+}, {
+  "text": "first hover over the Infusionsoft logo---> then find the 'Billing & account info' option under the 'Admin' tab ---> then click the 'View your support cases' option there",
+  "category": "navigation",
+  "title": "> how customer can get to view their suppport cases"
+}, {
+  "text": "I suggest for you to clear ALL of your cache and cookies and then try again.",
+  "category": "cache and cookies"
+}, {
+  "text": "In most web browsers, to open the menu used to clear your cache, cookies, and history, press Ctrl-Shift-Delete (Windows) or Command-Shift-Delete (Mac).",
+  "category": "cache and cookies"
+}, {
+  "text": "You are very welcome! Is there anything else that I can help you with at this time though?",
+  "category": "bye"
+}, {
+  "text": "I'm so glad we got that taken care of! And is there anything else that I can help you with at this time?",
+  "category": "bye"
+}, {
+  "text": "I'm so glad we got that taken care of! And is there anything else that I can help you with at this time?",
+  "category": "bye"
+}, {
+  "text": "Sounds good and thank you for using the Infusionsoft Chat support today! You have a wonderful day! bye",
+  "category": "bye"
+}, {
+  "text": "You are very welcome! Feel free to come on back with any other questions you may have. Thank you for using the Infusionsoft Chat support today and you have a wonderful day! good bye",
+  "category": "bye"
+}, {
+  "text": "I want to make sure that you get the best help possible. Support team members are not trained on custom coding. We do have documentation for API that can be found here: https://developer.infusionsoft.com/docs/xml-rpc/ We have a community forum where you can get help from the community, this can be found here: http://community.infusionsoft.com/forumdisplay.php/9-API-amp-Custom-Development We also have a ticketing system for API throttling questions, questions about error messages returned from Infusionsoft, and if you are wanting to report a bug with the API this can be found here: https://developer.infusionsoft.com/support/tickets/create/ Again I am sorry we just are not trained to be developers. Do you have other questions about the application that I can help with?",
+  "category": "api"
+}, {
+  "text": "I apologize for the wait. But I have to ask, are you still with me? You've been idle for about 5 minutes, and I want to make sure our chat's still connected. If you arent able to respond in 2 minutes, I'm afraid I'm going to need to disconnect the Chat session.",
+  "category": "idle messages"
+}, {
+  "text": "Sorry, due to inactivity the chat session is now ending. Please feel free to contact us back at any time. Thanks again for using Infusionsoft Chat support.",
+  "category": "idle messages"
+}, {
+  "text": "Let me know if you have any questions on that =)",
+  "category": "idle messages"
+}, {
+  "text": "Does that answer your question?",
+  "category": "idle messages"
+}, {
+  "text": "I would be more than happy to submit what we call a change request for you. This will be presented to our developers for consideration, but note that there is not a guarantee that this change will take place and there ar no updates from the development team on the requests.",
+  "category": "Change Request"
+}, {
+  "text": "If you are currently logged in, you will need to first log out of the app. Then go to your login page or (signin.infusionsoft.com) and click on the 'forgot your password?'' link and follow the instructions.",
+  "category": "Reset Password"
+}, {
+  "text": "What I can do is send an email to this email address ( ########### ) but before I do you NEED to click on the 'sign out' button with in ANY Infusionsoft app you may be in currently(only closing the browser tab will not log you out) and then let me know when this is done so I can send the email.",
+  "category": "CAS ID Reset",
+  "title": "Step One"
+}, {
+  "text": "Awesome! Email sent! Now you will need to go into this email's inbox to click the link found there to start this, and this email will allow you to reset a 'temporary password' (this is a password that is NOT the Infusionsoft ID password but will give you access to a page that we need you to get to). After resetting this temporary password, there will be an auto prompt to create a new Infusionsoft ID",
+  "category": "CAS ID Reset",
+  "title": "Step Two"
+}, {
+  "text": ", on that page you need to click on the 'already have an ID?'' then use your current ID and password to log in. Do you have any questions on that?",
+  "category": "CAS ID Reset",
+  "title": "Step Three(*Only If changing to an existing Infusionsoft ID*)"
+}, {
+  "text": "To merge duplicate contacts you first need to find them, here is how to have the system identify duplicate contacts. http://help.infusionsoft.com/userguides/contact-management/merge-duplicate-contacts/identify-duplicate-contact-records Then you can have the system merge the contacts http://help.infusionsoft.com/userguides/contact-management/merge-duplicate-contacts/automatically-merge-duplicate-contacts or you can manually merge them. http://help.infusionsoft.com/userguides/contact-management/merge-duplicate-contacts/manually-merge-duplicate-contacts",
+  "category": "Merge Duplicates"
+}, {
+  "text": "Okay so I can help you with that, there are packages of contacts and emails per month and I can help you purchase right now, then you will have access to them immediately. so they are: '5K contacts and 25K emails for $50/ month' '10K contacts and 50K emails for $75/ month' '25K contacts and 125K emails for $100/ month' '50K contacts and 250K emails for $150/ month' and '100K contacts and 500K emails for $200/month' And these are in addition to what you already have, would you like to purchase now?",
+  "category": "purchase contacts"
+}, {
+  "text": "I'm sorry to hear that your emails were stopped. At Infusionsoft, we comply with CAN-SPAM and take into account industry standards to create our own standards which states that any email batch that has a spam report rate of 0.1% will be considered spam content. I understand that that is an extremely low number, but it is to protect ourselves, our customers, and the end-user/contact being sent the email per FTC standards. Also here are the FTC standards at:  https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business  What I would recommend doing is sending out a Double Opt-In campaign out to your list to ensure interest and continued engagement with your marketing materials. Here are the instructions on creating a Double Opt-In campaign that you can send out to your list of contacts: http://help.infusionsoft.com/userguides/campaigns-and-broadcasts/campaign-sequence-guide/email-confirmation-sequence",
+  "category": "email compliance",
+  "author": "Contributed by: Justin Carrillo"
+}, {
+  "text": "Does that answer your question?",
+  "category": "idle messages"
+}, {
+  "textLineBreaks": [
+    "I'd be more than happy to get a request in to get your contacts restored! In order to get you the most accurate quote, I need to know any and all items you would need restored. Here are some specifics that I would need to know:",
+    "- Custom Fields that previously had data for those contacts",
+    "- Tasks tied to those contacts",
+    "- Appointments tied to those contacts",
+    "- Notes tied to those contacts",
+    "- Order records attached to those contacts",
+    "- Credit Cards saved with their orders",
+    "- Referral Partner records tied to those contacts",
+    "- Opportunities assigned to those contacts",
+    "- Tags removed from the contacts"
+  ],
+  "category": "data base restore",
+  "title": "> restore contacts",
+  "author": "Contributed by: Chelsea Dellinger",
+  "copyText": "I'd be more than happy to get a request in to get your contacts restored! In order to get you the most accurate quote, I need to know any and all items you would need restored. Here are some specifics that I would need to know: \n - Custom Fields that previously had data for those contacts \n - Tasks tied to those contacts \n - Appointments tied to those contacts \n - Notes tied to those contacts \n - Order records attached to those contacts \n - Credit Cards saved with their orders \n - Referral Partner records tied to those contacts \n - Opportunities assigned to those contacts \n - Tags removed from the contacts"
+}]

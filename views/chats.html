@@ -1,0 +1,63 @@
+<header>
+  <div class="page_wrap">
+    <div  class="chats_nav_wrap">
+      <div class="chats_nav">
+
+
+
+        <div class="me-checkbox-group" ng-repeat="cat in chatCats">
+          <span>{{cat.name}}</span>
+          <div class="me-checkbox">
+            <input
+              ng-click="includeCategory(cat.name)"
+              type="checkbox"
+              id="{{cat.shortName}}"
+              checklist-model="chatCatsSelected.name"
+              checklist-value="cat.name"
+            />
+            <label for="{{cat.shortName}}"></label>
+          </div>
+        </div>
+
+        <div class="me-checkbox-group">
+          <div class="clearBtn">
+            <button
+              class="btn btn_orange"
+              ng-click="uncheckAll(); categoryIncludes.length = 0">
+              Clear Categories
+            </button>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</header>
+<div class="full_page_section">
+  <div class="page_wrap">
+    <div class="me-input-group inlineCtrls">
+      <input class="quick_search" type="text" ng-model="quicksearch" placeholder="quick search..." />
+      <button class="btn btn_blue" ng-click="quicksearch = ''">Clear</button>
+    </div>
+    <ul class="chats_list">
+      <li ng-repeat="chat in chats | filter: quicksearch | filter: categoryFilter" class="white_solid">
+        <div class="cata_title">
+          <h3>{{chat.category}}</h3><h3>{{chat.title}}</h3>
+        </div>
+        <div class="dispaly_text_wrap">
+          <p>{{chat.text}}</p>
+          <div class="multi_line" ng-repeat="breaks in chat.textLineBreaks">
+            <span>{{breaks}}</span>
+            <br />
+          </div>
+        </div>
+        <div class="bottom_wrap">
+          <button class="btn btn_blue" ngclipboard data-clipboard-text="{{chat.text}}{{chat.copyText}}">Copy</button>
+          <span class="author">{{chat.author}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

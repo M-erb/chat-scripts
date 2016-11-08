@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ewdApp">
+<head>
+  <base href="/" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="application-name" content=">Erb Chat Scripts"/>
+  <meta name="description" content=">Erb Chat Scripts">
+  <meta name="theme-color" content="#417BF5">
+  <meta name="p:domain_verify" content="e22136ab81ca3341b04755aadb53f77f"/>
+  <title>Erb Chat Scripts</title>
+  <link rel="icon" href="https://an140.infusionsoft.com/slices/style/favicon.ico" type="image/x-icon" />
+  <!--CSS-->
+  <link rel="stylesheet" href="content/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--JS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+  <!--Angular-->
+  <script src="content/js/headroom.min.js"></script>
+  <script src="app/lib/angular.min.js"></script>
+  <script src="app/lib/angular-route.min.js"></script>
+  <script src="app/lib/ngclipboard.min.js"></script>
+  <script src="app/lib/angular.headroom.js"></script>
+  <script src="app/lib/checklist-model.js"></script>
+  <script src="app/lib/angularytics.min.js"></script>
+  <script src="content/js/clipboard.min.js"></script>
+  <script src="app/app.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-86971725-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body class="gray_solid">
+    <nav ng-include src="'views/nav.html'"></nav>
+
+    <main ng-view></main>
+
+    <footer ng-include src="'views/footer.html'"></footer>
+</body>
+</html>

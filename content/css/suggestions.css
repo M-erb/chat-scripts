@@ -1,0 +1,31 @@
+.flex_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form {
+  flex: 0 0 20em;
+  margin: 0 3em 1em 6em;
+}
+.trello_box {
+  flex: 0 0 25em;
+  padding: 3em;
+  background: #fff;
+  border: 1px solid rgb(230,230,230);
+  border-radius: 3px;
+  margin: 0 3em 1em 6em;
+  text-align: center;
+}
+.trello_box p {
+  margin-bottom: 2em;
+}
+.trello_box a {
+  text-decoration: none;
+  color: #303442;
+}
+.trello_box a:hover {
+  text-decoration: underline;
+  color: #303442;
+}

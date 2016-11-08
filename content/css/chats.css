@@ -1,0 +1,140 @@
+header.hero {
+	min-height: 100vh;
+	display: flex;
+}
+
+/*quick search*/
+.inlineCtrls {
+	display: flex;
+	justify-content: space-between;
+}
+.inlineCtrls input {
+	flex: 1 1 100px;
+	margin: 1em!important;
+	width: auto!important;
+	padding: 1em!important;
+	align-self: flex-start;
+	font-size: 1em!important;
+}
+.inlineCtrls .btn {
+	font-size: 1em;
+	padding: 1em;
+	align-self: flex-start;
+	margin: 1em;
+}
+
+.chats_list p:first-letter {
+	text-transform: capitalize;
+}
+.chats_list li {
+	margin: 2em 0 0 0;
+	padding: 2em;
+	border-radius: 5px;
+}
+.chats_list li:first-child {
+	margin: 1em 0 0 0;
+}
+.chats_list a {
+	color: #00baf7;
+}
+
+.cata_title {
+	padding-bottom: 1em;
+	font-weight: bold;
+	color: rgba(101,101,101,0.5);
+}
+.cata_title h3 {
+	display: inline;
+	font-size: 1.1em;
+	cursor: default;
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cata_title h3:first-child {
+	padding-right: 0.5em;
+}
+.chats_list p {
+	font-size: 1.3em;
+	line-height: 1.4;
+}
+
+.dispaly_text_wrap {
+	margin-bottom: 1em;
+}
+
+.chats_list .multi_line > span {
+	font-size: 1.3em;
+	line-height: 1.4;
+}
+
+.chats_list .btn {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0.5em 1em;
+}
+.author {
+  display: inline-block;
+  margin-left: 2em;
+  color: rgba(101,101,101,0.5);
+  font-weight: bold;
+}
+/*-chats nav*/
+.chats_nav_wrap {
+	background: #303442;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 4em 2em 2em 0;
+	height: 100vh;
+	transform: translate(-100%);
+	transition: transform 0.3s;
+	color: #fff;
+	overflow-y: scroll;
+}
+.chats_nav_open {
+	transform: translate(0);
+}
+
+.chats_nav .me-checkbox-group {
+	padding: 0.15em 3em 0.15em 2em;
+	width: 20em;
+}
+
+.clearBtn .btn {
+	font-weight: bold;
+	border: none;
+}
+
+.chats_nav_wrap::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 0.4em;
+		background: transparent;
+}
+.chats_nav_wrap::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+    background: transparent;
+}
+.chats_nav_wrap::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+	border-radius: 20px;
+}
+
+
+@media only screen and (max-width:1200px){
+
+}
+@media only screen and (max-width: 600px){
+	header.hero {
+		justify-content: center;
+	}
+	.action_item_box {
+		left: 0;
+	}
+	.action_item_box h2 {
+		font-size: 2em;
+	}
+	.hero_images {
+		display: none;
+	}
+}
