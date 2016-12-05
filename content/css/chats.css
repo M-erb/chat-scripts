@@ -58,6 +58,10 @@ header.hero {
 .chats_list p {
 	font-size: 1.3em;
 	line-height: 1.4;
+	-webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
 }
 
 .dispaly_text_wrap {
@@ -120,6 +124,15 @@ header.hero {
 	border-radius: 20px;
 }
 
+p.notes {
+	font-size: 1em;
+	margin-bottom: 0.8em;
+	color: rgb(180,180,190);
+	-webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
 
 @media only screen and (max-width:1200px){
 
