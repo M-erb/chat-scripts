@@ -44,7 +44,9 @@
         </div>
         <img ng-show="hasImg = {{shoot.hasImg}}" src="content/img/app-logo.png" ng-src="{{shoot.imgSrc}}" alt="trouble shoot image" />
         <p>{{shoot.text}} <a ng-href="{{shoot.linkUrl}}" target="_blank" rel="noreferrer">{{shoot.linkText}}</a></p>
-        <button ng-show="hasCopy = {{shoot.hasCopy}}" class="btn btn_blue" ngclipboard data-clipboard-text="{{shoot.text}}">Copy</button>
+        <button ng-show="hasCopy = {{shoot.hasCopy}}" class="btn btn_blue"
+        ngclipboard data-clipboard-text="{{shoot.text}}"
+        ng-click="meAlert.autoClose('Copied!', 800)">Copy</button>
       </li>
     </ul>
   </div>
