@@ -29,7 +29,7 @@ chatsApp.run(function(Angularytics) {
   Angularytics.init();
 });
 
-chatsApp.controller('mainCtrl', ['$scope', '$http', function($scope, $http){
+chatsApp.controller('mainCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout){
 
   $http.get('data/chats.json').success(function(Data){
     $scope.chats = Data;
@@ -120,9 +120,41 @@ chatsApp.controller('mainCtrl', ['$scope', '$http', function($scope, $http){
     $scope.chatCatsSelected.name = [];
   };
 
+  $scope.meAlert = {
+    message: '',
+    show: false,
+    useCloseBtn: true,
+    toggle: function(mess) {
+      this.useCloseBtn=true
+      if(this.show) {
+        this.show = false
+      }else {
+        this.show = true
+        this.message = mess
+      }
+    },
+    autoClose: function(mess, delay, closeBtn) {
+      if(closeBtn) {
+        this.useCloseBtn=true
+      }else {
+        this.useCloseBtn=false
+      }
+      if(this.show) {
+        this.show = false
+      }else {
+        this.show = true
+        this.message = mess
+        function closeAlert() {
+          $scope.meAlert.show = false
+        }
+        $timeout(closeAlert, delay, this)
+      }
+    }
+  }
+
 }]);
 
-chatsApp.controller('shootCtrl', ['$scope', '$http', function($scope, $http){
+chatsApp.controller('shootCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout){
 
   $http.get('data/shoot.json').success(function(Data){
     $scope.shoots = Data;
@@ -173,5 +205,37 @@ chatsApp.controller('shootCtrl', ['$scope', '$http', function($scope, $http){
   $scope.uncheckAll = function() {
     $scope.shootCatsSelected.name = [];
   };
+
+  $scope.meAlert = {
+    message: 'this is such a test!',
+    show: false,
+    useCloseBtn: true,
+    toggle: function(mess) {
+      this.useCloseBtn=true
+      if(this.show) {
+        this.show = false
+      }else {
+        this.show = true
+        this.message = mess
+      }
+    },
+    autoClose: function(mess, delay, closeBtn) {
+      if(closeBtn) {
+        this.useCloseBtn=true
+      }else {
+        this.useCloseBtn=false
+      }
+      if(this.show) {
+        this.show = false
+      }else {
+        this.show = true
+        this.message = mess
+        function closeAlert() {
+          $scope.meAlert.show = false
+        }
+        $timeout(closeAlert, delay, this)
+      }
+    }
+  }
 
 }]);

@@ -110,12 +110,109 @@ footer {
 	padding: 3em 0;
 }
 
-@media only screen and (min-width:771px){
-
+/* alert window */
+.me_alert_window {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(41, 41, 41, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
-@media only screen and (max-width:770px){
-
+.me_alert_window .me_alert_box {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  width: 90%;
+  min-width: 200px;
+  max-width: 400px;
+  background: #fff;
+  padding: 60px 0;
+  color: #323738;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media only screen and (max-width:400px){
+.me_alert_window .me_alert_box .me_alert_message .success_icon_box {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.me_alert_window .me_alert_box .me_alert_message p {
+  font-weight: bold;
+  font-family: 'open sans';
+  text-align: center;
+}
+.me_alert_window .me_alert_box .me_alert_message .btn_wrap {
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+}
 
+svg.checkmark-animation {
+  width: 100%;
+  min-width: 60px;
+  max-width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.checkmark-animation .circle {
+  -webkit-animation: 1.3s circleDraw forwards;
+  animation: 1.3s circleDraw forwards;
+  stroke-dasharray: 700;
+  stroke-dashoffset: 0;
+}
+
+.checkmark-animation .checkmark {
+  -webkit-animation: 0.7s checkmarkDraw forwards;
+  animation: 0.7s checkmarkDraw forwards;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  stroke-dasharray: 150;
+  stroke-dashoffset: 0;
+}
+
+.mark {
+  fill: none;
+  stroke: #79be37;
+  stroke-miterlimit: 10;
+  stroke-width: 10px;
+}
+
+@-webkit-keyframes circleDraw {
+  from {
+    stroke-dashoffset: 700;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes circleDraw {
+  from {
+    stroke-dashoffset: 700;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes checkmarkDraw {
+  from {
+    stroke-dashoffset: 150;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes checkmarkDraw {
+  from {
+    stroke-dashoffset: 150;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }

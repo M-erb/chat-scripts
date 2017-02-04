@@ -3,9 +3,6 @@
     <div  class="chats_nav_wrap">
       <div class="chats_nav">
 
-
-
-
         <div class="me-checkbox-group" ng-repeat="cat in shootCats">
           <span>{{cat.name}}</span>
           <div class="me-checkbox">
@@ -30,9 +27,6 @@
           </div>
         </div>
 
-
-
-
       </div>
     </div>
   </div>
@@ -53,5 +47,25 @@
         <button ng-show="hasCopy = {{shoot.hasCopy}}" class="btn btn_blue" ngclipboard data-clipboard-text="{{shoot.text}}">Copy</button>
       </li>
     </ul>
+  </div>
+</div>
+
+<div class="me_alert_window" ng-show="meAlert.show">
+  <div class="me_alert_box animated bounceIn">
+    <div class="me_alert_message">
+      <div class="success_icon_box">
+        <svg class="checkmark-animation" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+          <circle class="mark circle checked" cx="100" cy="100" r="94"/>
+          <polyline class="mark checkmark checked" points="46.9 101.4 76.9 131.4 146.4 61.9"/>
+        </svg>
+      </div>
+      <p>{{meAlert.message}}</p>
+      <div class="btn_wrap">
+        <button
+        ng-show="meAlert.useCloseBtn"
+        class="btn_primary_s"
+        ng-click="meAlert.toggle()">Close</button>
+      </div>
+    </div>
   </div>
 </div>
